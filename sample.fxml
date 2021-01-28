@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="200.0" maxWidth="600.0" minHeight="200.0" minWidth="600.0" prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exceptionsTest.Controller">
+   <children>
+      <Label fx:id="wynik" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="142.0" prefHeight="44.0" prefWidth="380.0" textAlignment="CENTER" />
+      <Button fx:id="licz" layoutX="280.0" layoutY="99.0" mnemonicParsing="false" onAction="#liczenie" text="LICZ" />
+      <TextField fx:id="polea" layoutX="51.0" layoutY="38.0" />
+      <TextField fx:id="poleb" layoutX="226.0" layoutY="38.0" />
+      <TextField fx:id="polec" layoutX="403.0" layoutY="38.0" />
+      <Text layoutX="264.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liczenie delty" />
+      <Text layoutX="97.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wpisz a" />
+      <Text layoutX="278.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wpisz b" />
+      <Text layoutX="457.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wpisz c" />
+   </children>
+</Pane>
